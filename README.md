@@ -37,7 +37,7 @@ From the `micropython` folder on your PC, upload this layout:
 /main.py
 /config.py
 /lib/ui.py
-/lib/net_hko.py
+/lib/net_weather.py
 /lib/ahtx0.py
 /lib/roboto16.py
 /lib/roboto8.py
