@@ -103,7 +103,6 @@ When you are done, run `main.py` again.
 | `DHCP FAILED` | ICS sharing is on Wi‑Fi → Ethernet, then reboot the PC |
 | DHCP works, weather fails | PC Wi‑Fi still has internet; try the page again after a reset |
 | Indoor numbers missing | AHT20 wiring (PB6 / PB7), 3V3 and GND |
-| Blank display | ST7789 wiring; backlight pin PB1 must be driven by the display driver as a normal pin |
 | Outdoor shows `--` | Weather fetch failed; look at the Thonny shell for `net:` lines |
 
 Location used for outdoor weather is Hong Kong: latitude `22.3022`, longitude `114.1744` in `config.py`.
